@@ -11,7 +11,7 @@ def main():
 
 @app.route("/register")
 def register():
-    return render_template("layout.html")
+    return render_template("register.html")
 
 
 @app.route("/login")

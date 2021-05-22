@@ -6,42 +6,41 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return render_template("layout.html")
+    return render_template("index.html")
 
 
 @app.route("/register")
 def register():
-    pass
+    return render_template("layout.html")
 
 
 @app.route("/login")
 def login():
-    pass
+    return render_template("login.html")
 
 
 @app.route("/logout")
 def logout():
-    pass
-
+    return render_template("logout.html")
 
 @app.route("/changepw")
 def change_password():
-    pass
+    return render_template("changepw.html")
 
 
 @app.route("/addmoney")
 def add_money():
-    pass
+    return render_template("addmoney.html")
 
 
 @app.route("/purchase")
 def purchase():
-    pass
+    return render_template("purchase.html")
 
 
 @app.route("/products")
 def show_products():
-    pass
+    return render_template("products.html")
 
 
 @app.route("/cart")

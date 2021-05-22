@@ -1,10 +1,18 @@
 main .form-control
 {
     /* Center form controls */
-    display: inline-block;
-
     /* Override Bootstrap's 100% width for form controls */
     width: auto;
+}
+main .form-group{
+    padding: 10px;
+}
+
+main .form-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 main
@@ -14,6 +22,8 @@ main
 
     /* Center contents */
     text-align: center;
+
+    justify-content: center;
 }
 
 main img

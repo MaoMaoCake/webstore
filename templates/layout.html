@@ -13,7 +13,10 @@
     <title>Webstore</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-purple bg-purple">
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-purple bg-purple">
       <div class="container-fluid">
 
         <a class="navbar-brand" href="/">WebStore</a>
@@ -29,9 +32,19 @@
             <li class="nav-item">
               <a class="nav-link" href="/products">Products</a>
             </li>
-              <form class="d-flex">
+              <li class="nav-item">
+              <a class="nav-link" href="/#">Promotion</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/#">Contact</a>
+            </li>
+
+          </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
               </form>
               {% if session.user_id %}
                   <li class="nav-item">
@@ -55,6 +68,8 @@
     <main class="container p-5">
         {% block main %}{% endblock %}
     </main>
-
+<nav class="navbar navbar-bottom bg-lightpurple">
+  <a class="navbar-brand" href="#"></a>
+</nav>
 </body>
 </html>

@@ -34,10 +34,22 @@ h1{
 }
 
 p{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+
+.card{
+    width:25rem;
+}
+
+.navbar-bottom{
+    height: 120px;
+}
+
+.bg-lightpurple{
+    background: #d7defd;
 }
 
 main .form-control

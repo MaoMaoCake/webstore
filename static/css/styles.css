@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-purple {
+    background: palevioletred;
+}
+
+.bg-purple{
+    background: mediumpurple;
+}
+
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+.btn{
+    color: white !important;
+}
+
+.our_website{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
 main .form-control
 {
     /* Center form controls */
